@@ -31,7 +31,7 @@ def main():
     
     with right_side:
         if seq1 and seq2:
-            st.image(functions.draw_matrix(alignment_matrix, seq1, seq2))
+            st.image(functions.draw_alignment_matrix(alignment_matrix, seq1, seq2))
 
 if __name__ == "__main__":
     main()
